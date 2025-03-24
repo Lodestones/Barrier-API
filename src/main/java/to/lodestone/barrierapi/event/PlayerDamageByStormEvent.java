@@ -7,10 +7,10 @@ import to.lodestone.bookshelfapi.api.event.BaseEvent;
 public class PlayerDamageByStormEvent extends BaseEvent implements Cancellable {
 
     private final Player player;
-    private int damage;
+    private double damage;
     private boolean isCancelled;
 
-    public PlayerDamageByStormEvent(Player player, int damage) {
+    public PlayerDamageByStormEvent(Player player, double damage) {
         this.player = player;
         this.damage = damage;
     }
@@ -33,7 +33,7 @@ public class PlayerDamageByStormEvent extends BaseEvent implements Cancellable {
         return player;
     }
 
-    public int getDamage() {
+    public double getDamage() {
         return damage;
     }
 
