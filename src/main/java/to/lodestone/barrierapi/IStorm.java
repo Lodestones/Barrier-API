@@ -4,7 +4,7 @@ import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
 
 public interface IStorm {
-    int getDamage();
+    double getDamage();
     int getDamageTick();
     double getX();
     double getZ();
@@ -14,7 +14,7 @@ public interface IStorm {
     void setTicksToMove(int time);
     void setRadius(int radius);
     void update();
-    void setDamage(int damage);
+    void setDamage(double damage);
     double getRadius();
     void setDamageTick(int damageTick);
     void setOrigin(double x, double z, int time);
