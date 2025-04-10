@@ -83,9 +83,9 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>to.lodestone</groupId>
+            <groupId>com.github.Lodestones</groupId>
             <artifactId>Bookshelf-API</artifactId>
-            <version>1.1.21</version>
+            <version>1.1.22</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
