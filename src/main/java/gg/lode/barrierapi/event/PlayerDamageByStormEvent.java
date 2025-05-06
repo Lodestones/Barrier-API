@@ -1,8 +1,8 @@
 package gg.lode.barrierapi.event;
 
+import gg.lode.bookshelfapi.api.event.BaseEvent;
 import org.bukkit.entity.Player;
 import org.bukkit.event.Cancellable;
-import to.lodestone.bookshelfapi.api.event.BaseEvent;
 
 public class PlayerDamageByStormEvent extends BaseEvent implements Cancellable {
 

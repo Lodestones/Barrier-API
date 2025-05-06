@@ -1,7 +1,7 @@
 package gg.lode.barrierapi.event;
 
+import gg.lode.bookshelfapi.api.event.BaseEvent;
 import org.bukkit.entity.Player;
-import to.lodestone.bookshelfapi.api.event.BaseEvent;
 
 public class PlayerEnterStormEvent extends BaseEvent {
     private final Player player;
