@@ -1,4 +1,4 @@
-package to.lodestone.barrierapi.event;
+package gg.lode.barrierapi.event;
 
 import org.bukkit.entity.Player;
 import to.lodestone.bookshelfapi.api.event.BaseEvent;

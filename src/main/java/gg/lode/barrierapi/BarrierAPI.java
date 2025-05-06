@@ -1,4 +1,4 @@
-package to.lodestone.barrierapi;
+package gg.lode.barrierapi;
 
 /**
  * Official API of the Barrier Plugin

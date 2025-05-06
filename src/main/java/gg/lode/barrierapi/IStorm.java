@@ -1,4 +1,4 @@
-package to.lodestone.barrierapi;
+package gg.lode.barrierapi;
 
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
