@@ -1,5 +1,6 @@
 package gg.lode.barrierapi;
 
+import org.bukkit.Color;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
 
@@ -34,11 +35,15 @@ public interface IStorm {
 
     void setOrigin(double x, double z, int time);
 
+    void setOrigin(double x, double z, double y, int time);
+
     void setOrigin(double x, double z);
 
     void setX(double x);
 
     void setZ(double z);
+
+    void setY(double y);
 
     int getTicksBeforeDamage();
 
@@ -49,5 +54,42 @@ public interface IStorm {
     int getTicksToMove();
 
     int getTicksToShrink();
+
     boolean isInStorm(Entity entity);
+
+    StormType getStormType();
+
+    void setStormType(StormType stormType);
+
+    void setWidth(double width);
+
+    void setWidth(double width, int time);
+
+    double getTargetY();
+
+    double getCurrentY();
+
+    double getTargetWidth();
+
+    double getCurrentWidth();
+
+    void setLength(double length);
+
+    void setLength(double length, int time);
+
+    double getTargetLength();
+
+    double getCurrentLength();
+
+    void setHeight(double height);
+
+    void setHeight(double height, int time);
+
+    double getTargetHeight();
+
+    double getCurrentHeight();
+
+    Color getColor();
+
+    void setColor(Color color);
 }
