@@ -13,6 +13,10 @@ public class PlayerLeaveStormEvent extends BaseEvent {
         this.player = player;
     }
 
+    public World getWorld() {
+        return world;
+    }
+
     public Player getPlayer() {
         return player;
     }

@@ -45,6 +45,10 @@ public class PlayerEnterStormEvent extends BaseEvent {
         this.ticksBeforeDamage = ticksBeforeDamage;
     }
 
+    public World getWorld() {
+        return world;
+    }
+
     public Player getPlayer() {
         return player;
     }
