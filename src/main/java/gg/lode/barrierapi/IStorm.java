@@ -33,11 +33,13 @@ public interface IStorm {
 
     void setDamageTick(int damageTick);
 
+    void setOrigin(double x, double z);
+
     void setOrigin(double x, double z, int time);
 
-    void setOrigin(double x, double z, double y, int time);
+    void setOrigin(double x, double y, double z);
 
-    void setOrigin(double x, double z);
+    void setOrigin(double x, double y, double z, int time);
 
     void setX(double x);
 
