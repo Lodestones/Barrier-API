@@ -87,6 +87,14 @@ public interface IStorm {
 
     void setHeight(double height, int time);
 
+    void setSize(double width, double height, double length);
+
+    void setSize(double width, double length);
+
+    void setSize(double width, double height, double length, int time);
+
+    void setSize(double width, double length, int time);
+
     double getTargetHeight();
 
     double getCurrentHeight();
