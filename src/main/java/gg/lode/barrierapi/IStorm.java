@@ -1,6 +1,7 @@
 package gg.lode.barrierapi;
 
 import org.bukkit.Color;
+import org.bukkit.Location;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
 
@@ -9,9 +10,17 @@ public interface IStorm {
 
     int getDamageTick();
 
-    double getX();
+    double getCurrentX();
 
-    double getZ();
+    double getCurrentZ();
+
+    double getTargetX();
+
+    double getTargetZ();
+
+    Location getCurrentCenter();
+
+    Location getTargetCenter();
 
     void setTicksToShrink(int time);
 
@@ -86,6 +95,10 @@ public interface IStorm {
     void setHeight(double height);
 
     void setHeight(double height, int time);
+
+    void setSize(double size, int time);
+
+    void setSize(double size);
 
     void setSize(double width, double height, double length);
 
