@@ -115,4 +115,8 @@ public interface IStorm {
     Color getColor();
 
     void setColor(Color color);
+
+    void hideStorm(Player player);
+
+    void showStorm(Player player);
 }
