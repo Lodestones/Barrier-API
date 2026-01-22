@@ -119,4 +119,56 @@ public interface IStorm {
     void hideStorm(Player player);
 
     void showStorm(Player player);
+
+    // Movement helpers
+    void moveUp(double value);
+
+    void moveUp(double value, int time);
+
+    void moveDown(double value);
+
+    void moveDown(double value, int time);
+
+    void moveTo(Location location);
+
+    void moveTo(Location location, int time);
+
+    // Size helpers - radius (circle)
+    void shrink(double value);
+
+    void shrink(double value, int time);
+
+    void expand(double value);
+
+    void expand(double value, int time);
+
+    // Size helpers - area (width & length)
+    void shrinkArea(double value);
+
+    void shrinkArea(double value, int time);
+
+    void expandArea(double value);
+
+    void expandArea(double value, int time);
+
+    // Size helpers - height
+    void shrinkHeight(double value);
+
+    void shrinkHeight(double value, int time);
+
+    void expandHeight(double value);
+
+    void expandHeight(double value, int time);
+
+    // Control helpers
+    void stop();
+
+    void stopMoving();
+
+    void stopResizing();
+
+    // Query helpers
+    boolean isMoving();
+
+    boolean isResizing();
 }
