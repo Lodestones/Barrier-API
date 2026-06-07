@@ -171,4 +171,9 @@ public interface IStorm {
     boolean isMoving();
 
     boolean isResizing();
+
+    // Affect mode (global vs per-player)
+    AffectMode getAffectMode();
+
+    void setAffectMode(AffectMode mode);
 }
